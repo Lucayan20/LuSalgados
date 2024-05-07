@@ -1,0 +1,89 @@
+@import url(section.css);
+@import url(ProductModal.css);
+
+
+
+
+body{
+    margin:0;
+}
+
+
+
+aside{
+
+    max-width: 300px;
+    width: 30%;
+    height: 100%;
+    padding:20px;
+    background-color: #070707cb;
+    position: fixed;
+    display: block;
+    
+}
+
+
+
+aside header .logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    border-bottom: 1px solid #666666;
+    
+}
+#logo{
+    width: 180px;
+}
+aside header img{
+    max-width: 120px;
+    width: 75%;
+}
+
+nav{
+    height: 100%;
+}
+
+.button{
+    height: 70px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover{
+    background-color: #F49E13;
+    transform: scale(1.2);
+    padding: 10px;
+    pointer-events: all;
+}
+
+.btn-image{
+    margin: 10px;
+    width: 40px;
+    
+}
+
+#exit{
+    margin-top: 250px;
+    
+    
+}
+img{
+    width: 40px;
+}
+#img{
+    width: 60px;
+    
+}
+
+.btn-text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
